@@ -1,14 +1,8 @@
 # Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import numpy as np
 from matplotlib.backends.backend_agg import FigureCanvasAgg
-from scipy.stats import norm
-from sklearn.preprocessing import StandardScaler
-from scipy import stats
-from sklearn.model_selection import train_test_split
-import pickle
 
 # Make a dataframe holding incarceration trends in the US from 1970 to 2018
 inc_tre_df = pd.read_csv("/Users/matt/Desktop/naacp/data/incarceration_trends.csv", parse_dates=['year'],
