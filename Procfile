@@ -1,1 +1,1 @@
-mercury run 0.0.0.0:$PORT
+web: mercury run 0.0.0.0:$PORT
