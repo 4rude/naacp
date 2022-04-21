@@ -1,6 +1,6 @@
 pandas~=1.3.4
 matplotlib~=3.4.3
-numpy~=1.20.3
+numpy>=1.21.0
 sklearn~=0.0
 scikit-learn~=1.0.2
 mljar-mercury
