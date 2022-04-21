@@ -5,7 +5,7 @@ import numpy as np
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 
 # Make a dataframe holding incarceration trends in the US from 1970 to 2018
-inc_tre_df = pd.read_csv("/Users/matt/Desktop/naacp/data/incarceration_trends.csv", parse_dates=['year'],
+inc_tre_df = pd.read_csv("data/incarceration_trends.csv", parse_dates=['year'],
                          index_col=False)
 
 # Use numpy to fill missing values with zero

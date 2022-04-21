@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 def generate_hen_blk_model(year_to_predict=2017):
     """Returns a prediction in a float datatype object."""
     # Make a dataframe holding incarceration trends in the US from 1970 to 2018
-    inc_tre_df = pd.read_csv("/Users/matt/Desktop/naacp/data/incarceration_trends.csv", parse_dates=['year'], index_col=False)
+    inc_tre_df = pd.read_csv("data/incarceration_trends.csv", parse_dates=['year'], index_col=False)
 
     # Use numpy to fill missing values with zero
     inc_tre_df = inc_tre_df.replace(np.nan, 0)
