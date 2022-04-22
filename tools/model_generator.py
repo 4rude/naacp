@@ -109,7 +109,7 @@ def generate_hen_blk_model(year_to_predict=2017):
 
 def generate_hen_nat_model(year_to_predict=2017):
     """Returns a prediction in a float datatype object."""
-    inc_tre_df = pd.read_csv("/Users/matt/Desktop/naacp/data/incarceration_trends.csv", parse_dates=['year'], index_col=False)
+    inc_tre_df = pd.read_csv("data/incarceration_trends.csv", parse_dates=['year'], index_col=False)
 
     # Use numpy to fill missing values with zero
     inc_tre_df = inc_tre_df.replace(np.nan, 0)
