@@ -1,2 +1,2 @@
-# Welcome researchers :mag_right:
-### Press open :arrow_down: to view the web app
+# Welcome all! :earth_americas:
+### Press open :arrow_down: to view the web application
